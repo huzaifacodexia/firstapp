@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!--    <groups>-->
+    <!--        <run>-->
+    <!--            <exclude name="group 1"></exclude>-->
+    <!--        </run>-->
+    <!--    </groups>-->
+
+    <test verbose="2" preserve-order="true" name="/Users/a123/IdeaProjects/TestNGProject">
+        <classes>
+            <class name="org.example.Dashboard">
+                   <methods>
+                    <include name="dashboard"/>
+                </methods>
+            </class>
+            <class name="org.example.AddProductToCart">
+                 <methods>
+                    <include name="addproducttocart"/>
+                </methods>
+            </class>
+            <class name="org.example.ViewCart">
+                <methods>
+                   <include name="viewcart"/>
+                </methods>
+            </class>
+            <class name="org.example.Login">
+                <methods>
+                    <include name="login"/>
+                </methods>
+    </class>
+            <class name="org.example.CheckOut">
+                <methods>
+                    <include name="checkout"/>
+                    <include name="cardpayment"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
