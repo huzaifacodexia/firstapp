@@ -27,7 +27,7 @@ public class CheckOut extends ViewCart{
         Thread.sleep(2000);
         driver.findElement(new AppiumBy.ByAccessibilityId("To Payment button")).click();
 
-driver.findEelemnt();
+
 
     }
 
