@@ -27,7 +27,7 @@ public class AddProductToCart extends Dashboard{
 //        driver.findElement(By.xpath("//android.widget.TextView[@text=\"Add To Cart\"]")).click();
 //        driver.close();
 Thread.sleep(2000);
-driver.findElement(new AppiumBy.ByAccessibilityId("Add To Cart buttons")).click();
+driver.findElement(new AppiumBy.ByAccessibilityId("Add To Cart")).click();
 
     }
 }
